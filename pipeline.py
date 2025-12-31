@@ -1,29 +1,29 @@
 from typing import List, Dict
 
-from ingestion import load_jobs_from_csv
 from analyzer import analyze_job_description
+from ingestion.base import JobSource
 from models import Job
 
 
-def analyze_jobs(file_path: str) -> List[Dict]:
+def analyze_jobs(source: JobSource) -> List[Dict]:
     """
     End-to-end pipeline:
-    - Load jobs from CSV
+    - Load jobs from a JobSource (CSV, API, etc.)
     - Analyze each job description using LLM
     - Attach structured results to each job
     """
 
-    # Step 1: Load Job objects from CSV
-    jobs: List[Job] = load_jobs_from_csv(file_path)
+    # Step 1: Load jobs from the provided source
+    jobs: List[Job] = source.load_jobs()
 
-    results = []
+    results: List[Dict] = []
 
     # Step 2: Iterate over each job
     for job in jobs:
-        # Call the LLM analyzer on the job description
+        # Analyze job description using LLM
         analysis = analyze_job_description(job.description)
 
-        # Combine job metadata with LLM output
+        # Combine metadata with analysis
         result = {
             "job_id": job.job_id,
             "title": job.title,
