@@ -1,3 +1,6 @@
+import hashlib
+from pathlib import Path
+
 import json
 import os
 from typing import Dict, List
@@ -11,6 +14,14 @@ class LLMAnalyzer(Analyzer):
     """
     Analyzer implementation that uses OpenAI LLMs.
     """
+    CACHE_PATH = Path("cache/llm_cache.json")
+    
+    def _get_cache_key(self, description: str) -> str:
+        """
+        Generate a deterministic cache key from job description.
+        """
+        return hashlib.sha256(description.encode("utf-8")).hexdigest()
+
 
     def analyze(self, description: str) -> Dict[str, List[str] | str]:
         """
@@ -22,6 +33,20 @@ class LLMAnalyzer(Analyzer):
             "seniority": "junior | mid | senior | unknown" 
         }
         """
+        cache_key = self._get_cache_key(description)
+
+        # Load cache
+        if self.CACHE_PATH.exists():
+            with open(self.CACHE_PATH, "r", encoding="utf-8") as f:
+                cache = json.load(f)
+        else:
+            cache = {}
+
+        # Return cached result if present
+        if cache_key in cache:
+            return cache[cache_key]
+
+        
         #Load environment variables (.env)
         load_environment_variables()
 
@@ -65,7 +90,15 @@ class LLMAnalyzer(Analyzer):
                 raw_output = raw_output[4:].strip()
 
         try:
-            return json.loads(raw_output)
+            parsed = json.loads(raw_output)
+
+            # Persist to cache
+            cache[cache_key] = parsed
+            with open(self.CACHE_PATH, "w", encoding="utf-8") as f:
+                json.dump(cache, f, indent=2)
+
+            return parsed
+
         except json.JSONDecodeError as e:
             raise ValueError(f"LLM returned invalid JSON: {raw_output}") from e
         

@@ -1,0 +1,443 @@
+{
+  "e870f397c254f99652a478dbbdaccece542d890dcefd242641c1047dd1afd61a": {
+    "skills": [
+      "amazon fba",
+      "strategizing",
+      "organic ranking mastery",
+      "amazon ppc expertise",
+      "brand management",
+      "logistics",
+      "backend",
+      "amazon catalog troubleshooter",
+      "project management",
+      "client communication",
+      "fluent in english"
+    ],
+    "seniority": "mid senior"
+  },
+  "edaba287721c769ab6351a2ec79c1eab633188aba524a020b31d532fcdd54ca0": {
+    "skills": [
+      "performance marketing",
+      "user acquisition",
+      "paid media",
+      "meta",
+      "tiktok",
+      "snapchat",
+      "asa",
+      "native platforms",
+      "ga4",
+      "voluum",
+      "tracking setups",
+      "dashboards",
+      "creative instincts",
+      "landing pages",
+      "funnel conversion",
+      "nsfw content"
+    ],
+    "seniority": "mid senior"
+  },
+  "4344b8f7abe5695812afbda300b8788aca63dcace3c5818bd6e67aba3fd4cf94": {
+    "skills": [
+      "laptop",
+      "webcam",
+      "stable internet connection",
+      "attitude",
+      "dynamism",
+      "mandarin proficiency",
+      "german proficiency",
+      "italian proficiency",
+      "french proficiency"
+    ],
+    "seniority": "junior"
+  },
+  "073c1d01b7b71ea31884effe2d1c1b2f25ed65d66f0c4d0f36db677bbd75ae4a": {
+    "skills": [
+      "leadership",
+      "people management",
+      "accountability",
+      "operational execution",
+      "systems management",
+      "scalable systems",
+      "kpis",
+      "client success",
+      "communication",
+      "collaboration",
+      "adaptability",
+      "flexibility",
+      "innovation",
+      "growth",
+      "results-oriented",
+      "integrity",
+      "empathy"
+    ],
+    "seniority": "mid senior"
+  },
+  "79c6b6718861a9968507ad28fd3abe12f0371603458cc8f8915e9ffaadae7a42": {
+    "skills": [
+      "devops",
+      "security",
+      "aws",
+      "terraform",
+      "cloudformation",
+      "ci/cd",
+      "docker",
+      "kubernetes",
+      "ansible",
+      "soc2",
+      "gdpr"
+    ],
+    "seniority": "mid senior"
+  },
+  "53f49197f02937e5996c9c62bfa5bbab39158181745a5ba713a7a3585688921b": {
+    "skills": [
+      "it management",
+      "systems administration",
+      "network management",
+      "salesforce administration",
+      "microsoft 365",
+      "ai tools",
+      "communication",
+      "project management",
+      "leadership",
+      "cybersecurity",
+      "software development",
+      "coding"
+    ],
+    "seniority": "mid senior"
+  },
+  "13dd20f7b13295cc042061eaedc98f97c741553cb4ba2f9eba9a387139b983b4": {
+    "skills": [
+      "travel",
+      "mentorship",
+      "guidance",
+      "community",
+      "storytelling",
+      "vulnerability",
+      "commitment",
+      "curiosity"
+    ],
+    "seniority": "unknown"
+  },
+  "34d5ba88edd78f37343cf69059c8870d0d2b52a7d6777b3a2e7a9db09e3c9cdf": {
+    "skills": [
+      "english",
+      "gaming",
+      "narrative games",
+      "attention to detail",
+      "high-quality work",
+      "guidelines",
+      "communication",
+      "storytelling",
+      "creative writing",
+      "copywriting",
+      "content development",
+      "media",
+      "film",
+      "video",
+      "audio",
+      "narrative design",
+      "performing arts",
+      "voice work",
+      "marketing",
+      "communications",
+      "audience engagement",
+      "psychology",
+      "philosophy",
+      "human behavior",
+      "data analysis",
+      "data manipulation",
+      "data reporting"
+    ],
+    "seniority": "unknown"
+  },
+  "e1ed02539c6c58d3c2e5fd9064c4f526e3cdbd3e9d3491384c8f41f11bf4b88d": {
+    "skills": [
+      "customer service",
+      "problem solving",
+      "communication",
+      "critical thinking",
+      "documentation",
+      "zendesk"
+    ],
+    "seniority": "unknown"
+  },
+  "011a6cafbbcd833d321264f4d2dd074d691287e26e93de9b77021b6c4d6f6b84": {
+    "skills": [
+      "c++",
+      "latency",
+      "throughput",
+      "fault tolerance",
+      "operational resilience",
+      "concurrency",
+      "multi-threading",
+      "lock-free programming",
+      "synchronization",
+      "memory management",
+      "network programming",
+      "tcp",
+      "udp",
+      "protocol design",
+      "distributed systems",
+      "messaging",
+      "resilience under load",
+      "graceful degradation",
+      "leadership",
+      "communication",
+      "hardware acceleration",
+      "fpga",
+      "kernel bypass",
+      "rdma",
+      "python",
+      "scripting",
+      "data processing",
+      "gpus"
+    ],
+    "seniority": "mid senior"
+  },
+  "099447851554c6881c5a6a29b7bf0e58ab7fff3c3b69e02dbc28f01ec4a77aa6": {
+    "skills": [
+      "ai",
+      "ml",
+      "llms",
+      "cv",
+      "nlp",
+      "ml infra",
+      "fine-tuning",
+      "software"
+    ],
+    "seniority": "mid senior"
+  },
+  "989e7b376981ad92f2e08b9bb51f5560c20f4707839ae3226ac8e5522815bdfb": {
+    "skills": [],
+    "seniority": "senior"
+  },
+  "235bd3badb6d04d3ccb940261d7d525ae8bd18d590a2b0b2ac19bcc033856df2": {
+    "skills": [
+      "ruby",
+      "ruby on rails",
+      "postgresql",
+      "mysql",
+      "elasticsearch",
+      "redis",
+      "docker",
+      "stimulusjs",
+      "javascript es6",
+      "tailwind css",
+      "html",
+      "http",
+      "ai/ml",
+      "llms",
+      "nlp",
+      "langchain",
+      "hugging face",
+      "kubernetes",
+      "react",
+      "graph databases"
+    ],
+    "seniority": "mid senior"
+  },
+  "26011b26ff7f14e85ff5b47c48f3ae581502a08814f2b742ac21f9d5636a0719": {
+    "skills": [
+      "python",
+      "scala",
+      "java",
+      "databricks",
+      "spark",
+      "sql",
+      "dbt",
+      "aws",
+      "gcp",
+      "etl",
+      "orchestration",
+      "data modeling",
+      "ml",
+      "llm",
+      "airflow",
+      "luigi",
+      "dagster",
+      "looker",
+      "tableau"
+    ],
+    "seniority": "mid senior"
+  },
+  "bdd4392638c89ce310ebcafb94afb39c3d72a1234dedebd8ceda76ea8b50b4e3": {
+    "skills": [
+      "exceptional written and verbal communication skills",
+      "proven track record in customer service",
+      "attention to detail",
+      "strong problem-solving skills",
+      "friendly tone",
+      "empathetic tone",
+      "professional demeanor",
+      "self-motivated",
+      "proactive",
+      "resourceful mindset",
+      "proficient in using technology",
+      "computer applications",
+      "software"
+    ],
+    "seniority": "unknown"
+  },
+  "e58c6c7979cdc23c352fb9418f74b89ddf2da7aaba74caebfafb2d625bbc59f2": {
+    "skills": [
+      "react.js",
+      "python",
+      "aws",
+      "gcp",
+      "azure",
+      "next.js",
+      "node.js",
+      "django",
+      "typescript",
+      "ai",
+      "tailwind",
+      "sql"
+    ],
+    "seniority": "senior"
+  },
+  "446c147d8c3c12f78b5601d4073f381a075ce1263aaff0bb85771982496c00be": {
+    "skills": [
+      "hospitality",
+      "operations",
+      "management",
+      "technology",
+      "automatisierung",
+      "skalierbare gesch\u00e4ftsmodelle",
+      "operational excellence",
+      "prozesse",
+      "kpis",
+      "qualit\u00e4t",
+      "deutsch",
+      "englisch"
+    ],
+    "seniority": "mid senior"
+  },
+  "0396a28289259be2d43d33cf4628f892a828c85c79cdf15f7a7cea8f5e0d1a9e": {
+    "skills": [
+      "willingness to learn",
+      "grow",
+      "collaborate",
+      "excellent verbal communication",
+      "excellent written communication",
+      "discretion",
+      "ethics",
+      "trustworthiness",
+      "intermediate spreadsheet skills",
+      "innovative thinking",
+      "experience in bookkeeping",
+      "experience with google sheets",
+      "experience with excel",
+      "experience with quickbooks online",
+      "experience with g-suite",
+      "availability to work 40 hours per week",
+      "reliable space to work remotely",
+      "fast computer",
+      "quality internet",
+      "camera",
+      "microphone",
+      "speakers"
+    ],
+    "seniority": "junior"
+  },
+  "d0f94360d5858c8d9a3f3b77023669ff71d7e9758a30ca138754eaa3d5d03ead": {
+    "skills": [
+      "calendar mastery",
+      "inbox mastery",
+      "travel planning",
+      "google workspace",
+      "bill.com",
+      "1password",
+      "privacy",
+      "documentation",
+      "coaching",
+      "communication",
+      "project management"
+    ],
+    "seniority": "mid senior"
+  },
+  "155e57e416f3bcb59f98076910fd7272e765aaa6b5bb8c19233f6795a2108263": {
+    "skills": [
+      "swift",
+      "swiftui",
+      "figma",
+      "api",
+      "core data",
+      "restful api",
+      "dependency injection",
+      "git",
+      "app store",
+      "testflight",
+      "ios security"
+    ],
+    "seniority": "mid senior"
+  },
+  "24e83e38aa01714fe0725f96cd8f8f2460da66e0846455324fc144e06e0bd9cb": {
+    "skills": [
+      "sales",
+      "kpi driven",
+      "tech savvy",
+      "digital tools",
+      "crm software",
+      "google sheets",
+      "growth oriented",
+      "autonomous",
+      "team player",
+      "active listening",
+      "empathetic",
+      "professional",
+      "financially motivated",
+      "rapport building"
+    ],
+    "seniority": "mid senior"
+  },
+  "5afad75568e764f58ed0f53dc43f36342a8146ce337b024ab815501bd59be8c7": {
+    "skills": [
+      "content marketing",
+      "copywriting",
+      "seo",
+      "analytics",
+      "user value",
+      "product understanding",
+      "storytelling",
+      "collaboration",
+      "digital pr",
+      "video storyboarding"
+    ],
+    "seniority": "mid senior"
+  },
+  "ee134ed2486ad4da685fdca2b8d78399a21328df886375fd6187cdad939438c8": {
+    "skills": [
+      "word processor",
+      "microsoft word",
+      "open office",
+      "reliable internet connection",
+      "good communication skills",
+      "team member"
+    ],
+    "seniority": "unknown"
+  },
+  "65093be74d64daa86dccc86b1eef936b03384a13fe16f8635c8819c348d23ec3": {
+    "skills": [
+      "customer support",
+      "communication",
+      "troubleshooting",
+      "written communication",
+      "collaboration",
+      "problem solving",
+      "organization",
+      "flexibility",
+      "technology",
+      "patience"
+    ],
+    "seniority": "junior"
+  },
+  "7649d313ec18561deb17ba9c3f2744a28e85d19861cb73887cb1bf318f16b218": {
+    "skills": [
+      "english writing",
+      "seo",
+      "content writing",
+      "research"
+    ],
+    "seniority": "mid senior"
+  }
+}
