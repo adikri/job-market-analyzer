@@ -51,3 +51,16 @@ def aggregate_seniority_distribution(results: List[Dict]) -> Dict[str, int]:
             seniority_counts["unknown"] += 1
 
     return seniority_counts
+
+def build_aggregation_summary(results: List[Dict]) -> Dict:
+    """
+    Build a combined aggregation summary from pipeline results.
+
+    :param results: Output from the analysis pipeline
+    :return: Dictionary containing all aggregation metrics
+    """
+
+    return {
+        "skills": aggregate_skill_frequency(results),
+        "seniority": aggregate_seniority_distribution(results),
+    }
