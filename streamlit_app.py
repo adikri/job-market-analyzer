@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 
 from ingestion.api_source import APIJobSource
@@ -13,7 +14,22 @@ st.caption("LLM-powered job insights (mock mode by default)")
 
 # Show analyzer mode
 analyzer = get_analyzer()
+
 st.sidebar.header("Configuration")
+
+use_real_llm = st.sidebar.checkbox(
+    "Use real LLM (costs money)",
+    value=False,
+    help="Enable OpenAI calls. Disabled by default."
+)
+
+# Control environment variable explicitly from UI
+if use_real_llm:
+    os.environ["USE_REAL_LLM"] = "true"
+else:
+    os.environ.pop("USE_REAL_LLM", None)
+
+analyzer = get_analyzer()
 st.sidebar.write(f"Analyzer in use: `{type(analyzer).__name__}`")
 
 # Load data
