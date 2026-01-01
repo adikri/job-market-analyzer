@@ -3,9 +3,9 @@ from typing import List, Dict
 from analyzer.llm_analyzer import LLMAnalyzer
 from ingestion.base import JobSource
 from models import Job
+from analyzer.base import Analyzer
 
-
-def analyze_jobs(source: JobSource) -> List[Dict]:
+def analyze_jobs(source: JobSource, analyzer: Analyzer) -> List[Dict]:
     """
     End-to-end pipeline:
     - Load jobs from a JobSource (CSV, API, etc.)
@@ -21,7 +21,6 @@ def analyze_jobs(source: JobSource) -> List[Dict]:
     # Step 2: Iterate over each job
     for job in jobs:
         # Analyze job description using LLM
-        analyzer = LLMAnalyzer()
         analysis = analyzer.analyze(job.description)
 
         # Combine metadata with analysis
